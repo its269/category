@@ -22,7 +22,8 @@
  }
 
         .pambalot {
-            height: 100vh;
+/*             height: 100vh; */
+                height: 800px;
             overflow-y: scroll;
         }
 

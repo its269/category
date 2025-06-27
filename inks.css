@@ -11,6 +11,16 @@ body {
     /* overflow: hidden; */
 }
 
+ html {
+     overflow: auto;
+     scrollbar-width: none;
+ }
+
+ html::-webkit-scrollbar {
+     display: none;
+     /* Chrome, Safari */
+ }
+
 .pambalot {
     height: 100vh;
     overflow-y: scroll;
